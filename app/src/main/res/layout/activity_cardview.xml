@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity$PlaceholderFragment">
+    android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
         android:id="@+id/CardContacto"
@@ -13,7 +12,7 @@
         android:orientation="vertical"
         app:cardCornerRadius="2dp"
         android:elevation="8dp"
-        android:context=".ContactoCard"
+        tools:context=".ContactoCard"
         app:cardUseCompatPadding="true">
 
         <TableLayout
@@ -39,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="@string/Name" />
+                    android:text="@string/Nombre" />
 
 
             </TableRow>
